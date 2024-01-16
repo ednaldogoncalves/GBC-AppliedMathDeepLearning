@@ -1,7 +1,15 @@
-#Assignment1
+### About
 
-Instructions
-Ex-1: Introduction to GitHub Submission Process
+- These codes are part of the Mathematical Concepts for Deep Learning (AASD 4011) course studies of the Postgraduate in Applied A.I. Solutions Development (T431) program at George Brown College.
+- For more information about the program, visit the [Website](https://www.georgebrown.ca/programs/applied-ai-solutions-development-program-postgraduate-t431).
+  
+![](https://www.georgebrown.ca/themes/custom/de_theme/logo.svg)
+
+------------
+
+# Assignment 1
+
+# Ex-1: Introduction to GitHub Submission Process
 
 ## Overview
 In this assignment, you will familiarize yourself with the GitHub submission process.
@@ -25,17 +33,20 @@ You are required to fix them up and ensure the test passes for a successful subm
 2. If some tests are failing, click on the ❌ to open up a popup, which will show details about the errors.
 3. You can click the [Details]() link to see what went wrong. Pay special attention to lines with the words "Failed" or "error".
 
-![screnshot](images/details_screenshot.png)
+![screnshot](assignment1/images/details_screenshot.png)
 
 4. Near the bottom of the [Details]() page, you can see your score. Here are examples of 0/5 and 5/5:
 
-![score](images/score.png) ![success](images/success.png)
+![score](assignment1/images/score.png) ![success](assignment1/images/success.png)
 
 5. When you achieve a perfect score, you will see a green checkmark near the commit ID.
 
-![green](images/green.png)
+![green](assignment1/images/green.png)
 
 ### Locally
 1. You can test your code locally by installing and running `pytest` (`pip install pytest` or `conda install pytest`).
 2. Run the tests using the command `pytest` in your terminal. This will show the status of each test and any errors that occurred.
- 
+
+### Attachments 
+- [ex1_test.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/assignment1/attachments/ex1_test.py)
+- [write_your_name.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/assignment1/attachments/write_your_name.py)

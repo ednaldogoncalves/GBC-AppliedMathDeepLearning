@@ -48,5 +48,5 @@ You are required to fix them up and ensure the test passes for a successful subm
 2. Run the tests using the command `pytest` in your terminal. This will show the status of each test and any errors that occurred.
 
 ### Attachments 
-- [ex1_test.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/assignment1/attachments/ex1_test.py)
-- [write_your_name.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/assignment1/attachments/write_your_name.py)
+- [ex1_test.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/assignment1/attachments/ex1_test.py)
+- [write_your_name.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/assignment1/attachments/write_your_name.py)

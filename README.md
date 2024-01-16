@@ -49,4 +49,4 @@ You are required to fix them up and ensure the test passes for a successful subm
 
 ### Attachments 
 - [ex1_test.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/assignment1/attachments/ex1_test.py)
-- [write_your_name.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/assignment1/attachments/write_your_name.py)
+- [get_a_point_for_writing_your_name.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/assignment1/attachments/get_a_point_for_writing_your_name.py)

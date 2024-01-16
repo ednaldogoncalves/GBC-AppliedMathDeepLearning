@@ -19,4 +19,4 @@ jobs:
         # $CONDA is an environment variable pointing to the root of the miniconda directory
         echo $CONDA/bin >> $GITHUB_PATH
     - name: Run a Python script
-      run: python https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/assignment1/ex1_test.py
+      run: python .github/workflows/ex1_test.py

@@ -29,24 +29,26 @@ def fit_regression_model(X, y):
     Hint: use the train_iteration function.
     Hint 2: while woring you can use the print function to print the loss every 1000 epochs.
     Hint 3: you can use the previos_loss variable to stop the training when the loss is not changing much.
-    """
-    learning_rate = 0.01 # Pick a better learning rate
-    num_epochs = 100 # Pick a better number of epochs
-    input_features = 0 # extract the number of features from the input `shape` of X
-    output_features = 0 # extract the number of features from the output `shape` of y
+    """    
+    learning_rate = 0.0001 # Pick a better learning rate
+    num_epochs = 10000 # Pick a better number of epochs
+    input_features = X.shape[1] # extract the number of features from the input `shape` of X
+    output_features = y.shape[1] # extract the number of features from the output `shape` of y
     model = create_linear_regression_model(input_features, output_features)
     
-    loss_fn = nn.L1Loss() # Use mean squared error loss, like in class
+    loss_fn = nn.MSELoss() # Use mean squared error loss, like in class
 
     optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
 
-    previos_loss = float("inf")
+    previous_loss = float("inf")
 
     for epoch in range(1, num_epochs):
         loss = train_iteration(X, y, model, loss_fn, optimizer)
-        if False: # Change this condition to stop the training when the loss is not changing much.
-            break
-        previos_loss = loss.item()
         # This is a good place to print the loss every 1000 epochs.
+        if epoch % 1000 == 0:
+            print(f"Epoch: {epoch}, Loss: {loss.item()}")
+        # Change this condition to stop the training when the loss is not changing much.
+        if abs(previous_loss - loss.item()) < 0.0001:
+            break
+        previous_loss = loss.item()
     return model, loss
-

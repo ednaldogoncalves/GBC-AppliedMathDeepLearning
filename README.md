@@ -133,6 +133,51 @@ We would like to guess the value of a few other vaults, given the number of gold
 
 ------------
 
+# Ex-4: Binary Classifier for MNIST
+
+## Overview
+In this exercise, you will implement a binary classifier to classify a single number from the MNIST dataset. You will be required to complete the functions provided in the Python files.
+
+## Objectives
+1. Define dense models with single and hidden layers.
+2. Train a model to classify a single digit from the MNIST dataset.
+3. Evaluate the performance of the trained model.
+
+## The Assignment
+You are required to complete the following functions in 'layered_model.py'. Your completed functions should pass the tests provided.
+1. `define_dense_model_single_layer`: Define a dense model with a single layer.
+2. `define_dense_model_with_hidden_layer`: Define a dense model with a hidden layer.
+3. `fit_mnist_model_single_digit`: Train the model for a single digit classification.
+4. `evaluate_mnist_model_single_digit`: Evaluate the performance of the trained model.
+
+---
+### Attachments 
+- [layered_model.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/assignment4/attachments/layered_model.py)
+- [layered_model_test.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/assignment4/attachments/layered_model_test.py)
+
+------------
+
+# Ex-5: Multiclass Classifier
+
+## Overview
+In this exercise, you will implement a multiclass classifier using the concepts learned in previous exercises.
+
+## Objectives
+1. Enhance your understanding of multiclass classification.
+2. Reuse and modify solutions from previous exercises.
+3. Implement and train a multiclass classifier model.
+4. Evaluate the performance of the model.
+
+## The Assignment
+You can reuse your solutions for `define_dense_model_single_layer` and `define_dense_model_with_hidden_layer` from Exercise 4. However, you need to fill in the functions `fit_mnist_model` and `evaluate_mnist_model`. Try to experiment with the number of epochs and batch size if the tests do not pass initially.
+
+---
+### Attachments 
+- [multiclass_model.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/assignment5/attachments/multiclass_model.py)
+- [multiclass_model_test.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/assignment5/attachments/multiclass_model_test.py)
+
+------------
+
 ## Validating and Evaluating Your Results
 
 ### Online

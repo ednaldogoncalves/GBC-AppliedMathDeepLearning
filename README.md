@@ -133,6 +133,8 @@ We would like to guess the value of a few other vaults, given the number of gold
 
 ------------
 
+# Assignment 4
+
 # Ex-4: Binary Classifier for MNIST
 
 ## Overview
@@ -157,6 +159,8 @@ You are required to complete the following functions in 'layered_model.py'. Your
 
 ------------
 
+# Assignment 5
+
 # Ex-5: Multiclass Classifier
 
 ## Overview
@@ -178,6 +182,34 @@ You can reuse your solutions for `define_dense_model_single_layer` and `define_d
 
 ------------
 
+# Assignment 6
+
+# Ex-6: Trainable Layers in Neural Networks
+
+## Overview
+In this exercise, you will learn to create and modify neural network layers.
+
+## Objectives
+1. Define dense models with multiple hidden layers.
+2. Set specific layers as trainable or non-trainable.
+
+## The Assignment
+
+### define_dense_model_with_hidden_layers
+Modify your solution from the previous exercise for `define_dense_model_with_hidden_layers`. This function should accept an array of hidden layer sizes and an array of the activation functions. Keep the following points in mind when coding:
+
+* The first layer is different because it should accept an `input_layer` parameter.
+* The output layer should use the `output_function` and `output_length` parameters.
+
+### set_layers_to_trainable
+The function `set_layers_to_trainable` should take a model and an array of layer numbers. It should set the layers in the array to `trainable` and the other layers to non-trainable.
+
+---
+### Attachments 
+- [trainable_layers.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/assignment6/attachments/trainable_layers.py)
+- [trainable_layers_test.py](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/assignment6/attachments/trainable_layers_test.py)
+
+------------
 ## Validating and Evaluating Your Results
 
 ### Online

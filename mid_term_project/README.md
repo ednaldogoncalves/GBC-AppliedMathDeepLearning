@@ -24,4 +24,7 @@ The algorithm described in Python 3.11.6 will be implemented, using the Keras li
 
 Once you have downloaded the dataset, you will notice that it has two folders – “train” and “val”. These contain the training and validation set, respectively. Inside each folder, there are separate folders for each class. 
 
+## The Project
+
+The file [Image_Classification_CNN_ImageNet_Dataset.ipynb](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/mid_term_project/Image_Classification_CNN_ImageNet_Dataset.ipynb)
 ---

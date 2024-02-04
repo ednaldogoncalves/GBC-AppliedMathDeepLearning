@@ -22,7 +22,11 @@ The algorithm described in Python 3.11.6 will be implemented, using the Keras li
 
 ## Download the Imagenette dataset
 
-Once you have downloaded the dataset, you will notice that it has two folders – “train” and “val”. These contain the training and validation set, respectively. Inside each folder, there are separate folders for each class. 
+Once you have downloaded the dataset, you will notice that it has two folders – “train” and “val”. These contain the training and validation set, respectively. Inside each folder, there are separate folders for each class.
+
+`!wget https://s3.amazonaws.com/fast-ai-imageclas/imagenette2.tgz`
+
+`!tar -xf imagenette2.tgz`
 
 ## The Project
 

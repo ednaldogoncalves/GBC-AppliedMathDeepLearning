@@ -36,6 +36,10 @@ The file: [image_classification_cnn_imagenet_dataset.ipynb](https://github.com/e
 
 ## The Models
 
-The **.h5** models generated after execution were also not included in GitHub due to the size of the directory.
+The **.h5** models generated after execution were also not included in GitHub due to the size of the directory, but they can be downloaded from the links below:
 
----
+-[cnn_model.h5](https://drive.google.com/file/d/1kqNxrpReP-LI75G9mq7ePZPz-4mUr_ON/view?usp=sharing)
+-[fcnn_inception_model.h5](https://drive.google.com/file/d/1k4KPyySb8_tjYW8yNSozmuLzLkcpBPW9/view?usp=sharing)
+-[fcnn_efficientNet_model.h5](https://drive.google.com/file/d/1kJ9F5JuRki_DV6Vdc9J0662iHs9HcvLL/view?usp=sharing)
+-[fcnn_restnet_model.h5](https://drive.google.com/file/d/1kGM97e87u_f_y4PjFeND8xCTbO_Gh9fI/view?usp=sharing)
+-[fcnn_vgg_model.h5](https://drive.google.com/file/d/1kaf_c6msmuIz1TbZTOZNgNZRNdFdV7uM/view?usp=sharing)

@@ -28,8 +28,14 @@ Once you have downloaded the dataset, you will notice that it has two folders â€
 
 `!tar -xf imagenette2.tgz`
 
+It was not added to GitHub due to the size of the directory.
+
 ## The Project
 
 The file: [image_classification_cnn_imagenet_dataset.ipynb](https://github.com/ednaldogoncalves/gbc-appliedmathdeeplearning/blob/main/mid_term_project/image_classification_cnn_imagenet_dataset.ipynb)
+
+## The Models
+
+The **.h5** models generated after execution were also not included in GitHub due to the size of the directory.
 
 ---

@@ -32,7 +32,7 @@ It was not added to GitHub due to the size of the directory.
 
 ## The Project
 
-The file: [image_classification_cnn_imagenet_dataset.ipynb](https://github.com/ednaldogoncalves/gbc-appliedmathdeeplearning/blob/main/mid_term_project/image_classification_cnn_imagenet_dataset.ipynb)
+The file: [image_classification_cnn_imagenet_dataset.ipynb](https://github.com/ednaldogoncalves/GBC-AppliedMathDeepLearning/blob/main/mid_term_project/Image_Classification_CNN_ImageNet_Dataset.ipynb)
 
 ## The Models
 

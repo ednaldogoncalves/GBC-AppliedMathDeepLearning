@@ -257,7 +257,7 @@ The **.h5** models generated after execution were also not included in GitHub du
 - [fcnn_vgg_model.h5](https://drive.google.com/file/d/1kaf_c6msmuIz1TbZTOZNgNZRNdFdV7uM/view?usp=sharing)
 
 ------------
-## Validating and Evaluating Your Results
+# Validating and Evaluating Your Results
 
 ### Online
 1. After committing and pushing your code, check the mark on the top line (near the commit ID).
